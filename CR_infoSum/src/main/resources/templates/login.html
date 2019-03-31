@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+<head>
+  <title>注册</title>
+</head>
+<body>
+  <form action="/login.do" method="GET">
+          手机号码：<input type="text" id="phone" name="phone" th:value="${phone}" ></input>
+          密码：  <input type="password" id="password" name="password" />
+    <input type="button" value="登录" onclick="submit()" />
+    <a href="/goRegister.do">注册</a>
+  </form>
+</body>
+</html>
